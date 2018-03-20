@@ -9,7 +9,7 @@ permalink: /first-post.html
 
 ## Proxy Pattern
 * 실제 객체를 대신하는 프록시 객체를 사용해서 실제 객체의 생성이나 접근 등을 제어할수 있도록 해주는 패턴.
- * remote proxy, virtual proxy, protection proxy
+ * remote proxy(원격 오브젝트와 통신), virtual proxy(비용이 많이 드는 object에 접근 통제), protection proxy(role 기반 object 접근 제어)
 * application needs와 database needs를 구분.
 * Objectives
   * Hide an object behind the proxy so the features can be hidden, restricted, and so on
@@ -28,5 +28,8 @@ permalink: /first-post.html
 * 데코레이터 패턴은 런타임에 오류가 발생할 수 있어 프록시 패턴에 비해 더 취약하다.
   * Decorator는 웹서버와 같이 런타임에 객체에 기능을 추가할때 일반적으로 사용됨.
 * 프록시 타입은 컴파일 타임에 오류를 잡을 수 있다.
+* 프록시 패턴은 object 접근 제어가 목적, 데코레이터 패턴은 기능  확장이 목적.
+* https://free-strings.blogspot.kr/2016/04/adapter-decorator-facade-proxy.html
 
 ## Facade Design Pattern
+* 프록시를 그룹핑한 패턴.
