@@ -21,3 +21,8 @@ permalink: /first-post.html
 * 위임을 하는 방식으로 기능을 확장해 나가는 패턴. (마트료시카 인형처럼)
 * 기존 코드를 건드리지 않고 기능을 확장하고 싶을 때 적합(open/close principla)
 * 정의되어있는 메서드가 증가하면 데코레이터 구현이 복잡해진다.
+
+### Proxy vs Decorator
+* 데코레이터 패턴에서는 동적으로 타입을 decorate한다.
+* 프록시 패턴은 
+* 데코레이터는 decorate할 타입의 모든 인터페이스를 
