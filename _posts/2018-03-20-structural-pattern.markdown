@@ -17,7 +17,7 @@ permalink: /first-post.html
 * The [proxy pattern](https://en.wikipedia.org/wiki/Proxy_pattern) provides an object that controls access to another object, intercepting all calls.
 
 
-## Decorator design pattern
+## Decorator Design Pattern
 * 위임을 하는 방식으로 기능을 확장해 나가는 패턴. (마트료시카 인형처럼)
 * 기존 코드를 건드리지 않고 기능을 확장하고 싶을 때 적합(open/close principla)
 * 정의되어있는 메서드가 증가하면 데코레이터 구현이 복잡해진다.
@@ -28,3 +28,5 @@ permalink: /first-post.html
 * 데코레이터 패턴은 런타임에 오류가 발생할 수 있어 프록시 패턴에 비해 더 취약하다.
   * Decorator는 웹서버와 같이 런타임에 객체에 기능을 추가할때 일반적으로 사용됨.
 * 프록시 타입은 컴파일 타임에 오류를 잡을 수 있다.
+
+## Facade Design Pattern
