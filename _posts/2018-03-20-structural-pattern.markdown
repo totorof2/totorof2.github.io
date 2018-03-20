@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Structural Patterns"
+date:   2018-03-20 16:03:33
+permalink: /first-post.html
+---
+
 # Ch4 - Structural Patterns
 
 ## Proxy Pattern
