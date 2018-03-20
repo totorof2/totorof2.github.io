@@ -32,4 +32,4 @@ permalink: /first-post.html
 * https://free-strings.blogspot.kr/2016/04/adapter-decorator-facade-proxy.html
 
 ## Facade Design Pattern
-* 프록시를 그룹핑한 패턴.
+* 서브 시스템의 인터페이스에 대한 통합된 인터페이스를 제공. 단순화된 인터페이스를 통해 서브시스템을 더 쉽게 사용할수 있도록 하기위한 용도.
