@@ -43,3 +43,11 @@ permalink: /first-post.html
 * 컴퓨터 그래픽이나 비디오 게임산업에서 많이 쓰이는 패턴. but 엔터프라이즈 애플리케이션에는 그다지 잘 안쓰임.
 * 하나의 공통 객체에서 가능한 모든 객체 상태를 공유 할 수 있으므로 이미 생성 된 객체에 대한 포인터를 사용하여 객체 생성을 최소화 할 수 있다.
 
+### Singleton vs Flyweight
+* 싱글톤 패턴에서는 
+  * 같은 타입의 인스턴스가 딱 한번 생성되는것을 보장한다.
+* 싱글톤 패턴은 Creational pattern, 플라이웨이트 패턴은 Structural pattern. 즉 플라이웨잇 패턴에서는 오브젝트가 어떻게 생성되는지 고민할 필요가 없다. 단지 어떻게 heavy information을 포함하는 타입을 조화할지 고민한다.
+* 이번 예제에서의 중점은 getTeamFactory가 아니라, sharable object인 map이다.
+
+## Summary
+* 
