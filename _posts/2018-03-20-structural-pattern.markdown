@@ -49,5 +49,5 @@ permalink: /first-post.html
 * 싱글톤 패턴은 Creational pattern, 플라이웨이트 패턴은 Structural pattern. 즉 플라이웨잇 패턴에서는 오브젝트가 어떻게 생성되는지 고민할 필요가 없다. 단지 어떻게 heavy information을 포함하는 타입을 조화할지 고민한다.
 * 이번 예제에서의 중점은 getTeamFactory가 아니라, sharable object인 map이다.
 
-## Summary
-* 
+## Summary(?)
+* 각 패턴의 목적을 따르다 보면 결국 당신은 여러 패턴을 섞어쓰게 된다. 혼란 ㄴ
